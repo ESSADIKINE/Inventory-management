@@ -25,7 +25,7 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 
 <div><h3>Menu / View All Contacts</h3></div>
 <div>
-<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/Menu.jpg" width="800px">
+<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/Menu.png" width="800px">
 </div>
 
 <div><h3>Add Contact</h3></div>
