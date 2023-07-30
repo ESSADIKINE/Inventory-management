@@ -36,7 +36,12 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 <div> 
 <img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/supplier.png" width="700px">
 </div>
+
 ## UML Class Diagram:
+
+
+## Le modèle conceptuel de données:
+
 
 ## Contact:
 
