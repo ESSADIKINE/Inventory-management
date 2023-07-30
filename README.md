@@ -25,17 +25,17 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 
 <div><h3>Menu</h3></div>
 <div>
-<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/Menu.png" width="800px">
+<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/Menu.png" width="700px">
 </div>
 
-<div><h3>Add Contact</h3></div>
+<div><h3>Product</h3></div>
 <div>  
-<img src="" width="800px">
+<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/Product.png" width="700px">
 </div>  
 
-<div><h3>View Contact</h3></div>
+<div><h3>Supplier</h3></div>
 <div> 
-<img src="" width="800px">
+<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/supplier.png" width="700px">
 </div>
 
 ## Contact:
