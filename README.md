@@ -1,3 +1,4 @@
+
 # Inventory-management
 
 ### javafx-mysql-inventory-management (gestion de stock)
@@ -56,4 +57,8 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 ### My linkedin : <a href="https://www.linkedin.com/in/anass-essadikine-8b398b233">linkedin</a>
 
 ## Demonstration Video :
+
+
+https://github.com/ESSADIKINE/Inventory-management/assets/140465843/ab11c537-bf0d-427b-a9a7-80183cfcb87d
+
 
