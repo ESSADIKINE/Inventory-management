@@ -9,6 +9,9 @@ This is an inventory management system that uses a JavaFX frontend, a Java API, 
 
 In early 2023, I wanted to make a simple application for my portfolio that could exemplify my knowledge of Java and SQL to potential employers. I started this personal project to enhance my understanding of UI development, middleware development, and database development.
 
+## Architecture:
+
+This application uses a Model-View-Controller (MVC) architectural pattern. The models are Java classes that hold the basic data-related logic such as Product, Manufacturer, User, and Customer logic. The views are FXML files holding UI components of each application page. The controllers are Java classes that work as an interface between the View and model components. In addition, there are several helper/service classes that aid the controllers in business-logic.
 
 ## Technologies Used:
 
@@ -22,18 +25,17 @@ In early 2023, I wanted to make a simple application for my portfolio that could
 
 <div><h3>Menu / View All Contacts</h3></div>
 <div>
-<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/Menu.jpg" width="400px">
-<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/View%20All.jpg" width="400px">
+<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/Menu.jpg" width="800px">
 </div>
 
 <div><h3>Add Contact</h3></div>
 <div>  
-<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/Add%20Contact.jpg" width="400px">
+<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/Add%20Contact.jpg" width="800px">
 </div>  
 
 <div><h3>View Contact</h3></div>
 <div> 
-<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/View%20Contact.jpg" width="400px">
+<img src="https://github.com/ESSADIKINE/FSTContact/blob/main/main/View%20Contact.jpg" width="800px">
 </div>
 
 ## Contact:
