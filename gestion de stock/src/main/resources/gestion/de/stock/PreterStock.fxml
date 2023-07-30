@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" maxHeight="480.0" maxWidth="640.0" minHeight="480.0" minWidth="640.0" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #06c99c;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gestion.de.stock.PreterStockController">
+    <children>
+        <Label layoutX="219.0" layoutY="14.0" text="Prêt de produit" textFill="RED">
+            <font>
+                <Font size="30.0" />
+            </font>
+        </Label>
+        <TextField fx:id="nomPreter" layoutX="194.0" layoutY="103.0" prefHeight="25.0" prefWidth="250.0" />
+        <Label layoutX="266.0" layoutY="85.0" text="Nom de l'emprunteur" />
+        <TextField fx:id="no_tel" layoutX="194.0" layoutY="160.0" prefHeight="25.0" prefWidth="250.0" />
+        <Label layoutX="296.0" layoutY="142.0" text="Téléphone" />
+        <Label layoutX="194.0" layoutY="202.0" text="Objets empruntés" />
+        <TextField fx:id="quantitéProduit" layoutX="388.0" layoutY="219.0" prefHeight="25.0" prefWidth="57.0" />
+        <Label layoutX="388.0" layoutY="202.0" text="Quantité" />
+        <ComboBox fx:id="listProduit" layoutX="194.0" layoutY="219.0" prefHeight="25.0" prefWidth="178.0" />
+        <Button fx:id="btnEmprunter" layoutX="264.0" layoutY="262.0" mnemonicParsing="false" onAction="#Emprunter" prefHeight="31.0" prefWidth="119.0" style="-fx-background-color: #00d3ff;" text="Emprunter" />
+        <Button fx:id="btnUpdate" disable="true" layoutX="143.0" layoutY="262.0" mnemonicParsing="false" onAction="#update" prefHeight="31.0" prefWidth="119.0" style="-fx-background-color: #00d3ff;" text="Mises à jour" />
+        <Button fx:id="btnretour" disable="true" layoutX="385.0" layoutY="262.0" mnemonicParsing="false" onAction="#retour" prefHeight="31.0" prefWidth="119.0" style="-fx-background-color: #00d3ff;" text="Retour" />
+        <Button fx:id="clearSelectButton" disable="true" layoutX="557.0" layoutY="278.0" mnemonicParsing="false" onAction="#clearSelection" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #00d3ff;" text="dégager" />
+        <ScrollPane layoutX="3.0" layoutY="319.0" prefHeight="161.0" prefWidth="634.0">
+            <content>
+                <TableView fx:id="tvEmprunter" prefHeight="156.0" prefWidth="628.0">
+                    <columns>
+                        <TableColumn fx:id="tcIdPreter" prefWidth="92.0" text="ID de prêt" />
+                        <TableColumn fx:id="tcPreter" prefWidth="149.0" text="Emprunteur" />
+                        <TableColumn fx:id="tcNotel" prefWidth="134.0" text="Tél" />
+                        <TableColumn fx:id="tcProduit" prefWidth="168.0" text="Marchandises" />
+                        <TableColumn fx:id="tcquantité" prefWidth="75.0" text="Quantité" />
+                    </columns>
+                </TableView>
+            </content>
+        </ScrollPane>
+        <Button fx:id="menuBtn" layoutX="574.0" layoutY="14.0" mnemonicParsing="false" onAction="#gotoMenu" style="-fx-background-color: #00d3ff;" text="Menu" />
+        <Label fx:id="errorLabel" layoutX="318.0" layoutY="59.0" />
+    </children>
+</AnchorPane>
