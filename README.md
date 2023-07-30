@@ -20,6 +20,7 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 <li>JavaFX - An open-source client application platform. It is used in this project to develop UI components such as buttons, text views, and windows. Documentation can be read at: https://openjfx.io/</li>
 <li>XML - Extensible Markup Language is another data-interchange format. To read/write XML with Java, you can implement DOM parser. For instructions on setting up DOM, visit: https://www.tutorialspoint.com/java_xml/java_dom_parse_document.htm</li>
 <li>FXML - An XML-based language that provides a separate structure for UI components. A tutorial for FXML can be found at: https://docs.oracle.com/javafx/2/fxml_get_started/why_use_fxml.htm#CHDCHIBE</li></lo>
+
 ## Screenshots:
 
 <div><h3>Menu</h3></div>
@@ -39,15 +40,20 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 
 ## UML Class Diagram:
 
+<div> 
+<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/UML.jpg" width="800px">
+</div>
 
 ## Le modèle conceptuel de données:
 
+<div> 
+<img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/MCD.jpg" width="800px">
+</div>
 
 ## Contact:
 
-For any inquiries or questions regarding the project, you can reach out to us at 
-## an4ss.essadikine@gmail.com.
-## My linkedin : <a href="https://www.linkedin.com/in/anass-essadikine-8b398b233">linkedin</a>
+### For any inquiries or questions regarding the project, you can reach out to us at an4ss.essadikine@gmail.com.
+### My linkedin : <a href="https://www.linkedin.com/in/anass-essadikine-8b398b233">linkedin</a>
 
 ## Demonstration Video :
 
