@@ -14,12 +14,12 @@ In early 2023, I wanted to make a simple application for my portfolio that could
 This application uses a Model-View-Controller (MVC) architectural pattern. The models are Java classes that hold the basic data-related logic such as Product, Manufacturer, User, and Customer logic. The views are FXML files holding UI components of each application page. The controllers are Java classes that work as an interface between the View and model components. In addition, there are several helper/service classes that aid the controllers in business-logic.
 
 ## Technologies Used:
-<lo>
+<lu>
 <li>Java - A general-purpose, object-oriented programming language. For more information about Java SE, visit: https://docs.oracle.com/en/java/javase/16/</li>
 <li>MySQL - An open-source relational database management system. For more information about MySQL, read the documentation website at: https://dev.mysql.com/doc/</li>
 <li>JavaFX - An open-source client application platform. It is used in this project to develop UI components such as buttons, text views, and windows. Documentation can be read at: https://openjfx.io/</li>
 <li>XML - Extensible Markup Language is another data-interchange format. To read/write XML with Java, you can implement DOM parser. For instructions on setting up DOM, visit: https://www.tutorialspoint.com/java_xml/java_dom_parse_document.htm</li>
-<li>FXML - An XML-based language that provides a separate structure for UI components. A tutorial for FXML can be found at: https://docs.oracle.com/javafx/2/fxml_get_started/why_use_fxml.htm#CHDCHIBE</li></lo>
+<li>FXML - An XML-based language that provides a separate structure for UI components. A tutorial for FXML can be found at: https://docs.oracle.com/javafx/2/fxml_get_started/why_use_fxml.htm#CHDCHIBE</li></lu>
 ## Screenshots:
 
 <div><h3>Menu</h3></div>
