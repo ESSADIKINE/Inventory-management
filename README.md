@@ -19,7 +19,7 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 <li>MySQL - An open-source relational database management system. For more information about MySQL, read the documentation website at: https://dev.mysql.com/doc/</li>
 <li>JavaFX - An open-source client application platform. It is used in this project to develop UI components such as buttons, text views, and windows. Documentation can be read at: https://openjfx.io/</li>
 <li>XML - Extensible Markup Language is another data-interchange format. To read/write XML with Java, you can implement DOM parser. For instructions on setting up DOM, visit: https://www.tutorialspoint.com/java_xml/java_dom_parse_document.htm</li>
-<li>FXML - An XML-based language that provides a separate structure for UI components. A tutorial for FXML can be found at: https://docs.oracle.com/javafx/2/fxml_get_started/why_use_fxml.htm#CHDCHIBE</li>
+<li>FXML - An XML-based language that provides a separate structure for UI components. A tutorial for FXML can be found at: https://docs.oracle.com/javafx/2/fxml_get_started/why_use_fxml.htm#CHDCHIBE</li></lo>
 ## Screenshots:
 
 <div><h3>Menu</h3></div>
