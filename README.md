@@ -45,7 +45,7 @@ This application uses a Model-View-Controller (MVC) architectural pattern. The m
 <img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/UML.jpg" width="800px">
 </div>
 
-## Le modèle conceptuel de données:
+## The conceptual data model::
 
 <div> 
 <img src="https://github.com/ESSADIKINE/Inventory-management/blob/main/MCD.jpg" width="800px">
